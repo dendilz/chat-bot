@@ -35,7 +35,7 @@ python main.py
 
 - `TELEGRAM_TOKEN`=токен вашего бота. [Получаем токен бота](https://tlgrm.ru/docs/bots)
 - `DEVMAN_TOKEN`=токен для работы с API Devman. [Получаем токен API Devman](https://dvmn.org/api/docs/)
-- `CHAT_ID`=Ваш чат ID в телеграм. Чтобы его узнать, отправьте сообщение @userinfobot
+- `TELEGRAM_CHAT_ID`=Ваш чат ID в телеграм. Чтобы его узнать, отправьте сообщение @userinfobot
 
 ### Цель проекта
 
