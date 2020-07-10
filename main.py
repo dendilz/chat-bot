@@ -32,8 +32,8 @@ def get_lesson_notation(data):
 
 def prepare_message(notation):
     lesson_title = notation['lesson_title']
-    is_lesson_accepted = notation['is_negative']
-    if is_lesson_accepted:
+    is_lesson_rejected = notation['is_negative']
+    if is_lesson_rejected:
         reply_message = f'Работа "{lesson_title}" не принята, есть ошибки'
     else:
         reply_message = f'Работа "{lesson_title}" принята'
